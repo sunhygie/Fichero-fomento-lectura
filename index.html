@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fichero de Fomento a la Lectura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fichero de Fomento a la Lectura</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">Inicio</a></li>
+                <li><a href="#categorias">Categorías</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Bienvenido</h2>
+            <p>Explora actividades creativas para fomentar la lectura en bibliotecas y comunidades.</p>
+        </section>
+        <section id="categorias">
+            <h2>Categorías de Actividades</h2>
+            <div class="category-grid">
+                <div class="category-card" onclick="showActivities('basicas')">
+                    <h3>Actividades Básicas</h3>
+                    <p>Introducción a la lectura con dinámicas sencillas.</p>
+                </div>
+                <div class="category-card" onclick="showActivities('presentacion')">
+                    <h3>Actividades de Presentación</h3>
+                    <p>Fomenta la interacción inicial.</p>
+                </div>
+                <div class="category-card" onclick="showActivities('lectura')">
+                    <h3>Círculos de Lectura</h3>
+                    <p>Organiza lecturas grupales de manera creativa.</p>
+                </div>
+                <div class="category-card" onclick="showActivities('escritura')">
+                    <h3>Actividades de Escritura</h3>
+                    <p>Fomenta la escritura creativa.</p>
+                </div>
+                <div class="category-card" onclick="showActivities('integracion')">
+                    <h3>Actividades de Integración</h3>
+                    <p>Promueve la colaboración y el trabajo en equipo.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>Envía tus comentarios o ideas a nuestro equipo.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Fomento a la Lectura. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
